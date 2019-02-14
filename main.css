@@ -1,5 +1,22 @@
-#main-content {
-  font-size: 36px;
-  font-weight: bold;
-  padding: 16px;
+#main-container {
+  max-width: 940px;
+  margin-left: 0;
+  margin-right: 0;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
+}
+button.code-folding-btn:focus {
+  outline: none;
 }
